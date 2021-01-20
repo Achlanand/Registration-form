@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Register yourself</title>
+</head>
+<body>
+	<form>
+		<fieldset>
+			<legend>Registration Form</legend><br>
+			<label>Registration Number: <input type="number" name="number" placeholder="Enter your Registration No." value="0123456789" required=""></label><br><br>
+
+		<label>First Name: <input type="text" name="Fname" placeholder="first name" required=""></label>
+		<label>Last Name: <input type="text" name="Lname" placeholder="last name" required=""></label><br><br>
+		<label>Please select one of these verify you are human:</label>
+		Cricket
+		<input type="checkbox" name="Cricket">
+		chess
+		<input type="checkbox" name="chess">
+		Football
+		<input type="checkbox" name="Football"><br><br>
+
+		<label>Male <input type="radio" name="gender" value="Male"></label>
+		<label>Female <input type="radio" name="gender" value="Female"></label>
+		<label>Others<input type="radio" name="gender" value="Others"></label><br><br>
+		<label>Email <input type="email" name="email" placeholder="your email" required=""></label>
+		<label>Phone Number:<input type="number" name="name" placeholder="Enter your Mobile No." required min="111111111" max="999999999"></label><br><br>
+
+		<label>Password: <input type="password" name="password" placeholder="your password" pattern=".{5-10}" required title="please enter password of length 5 to 10" ></label><br><br>
+		<label for="">Birthday:</label>
+		<select id="birthday" name="Month">
+			<option>Month</option>
+			<option>Jan</option>
+			<option>Feb</option>
+			<option>Mar</option>
+			<option>Apr</option>
+			<option>June</option>
+			<option>july</option>
+		</select>
+		<select id="birthday" name="Day">
+			<option>1</option>
+			<option>2</option>
+			<option>3</option>
+			<option>4</option>
+			<option>5</option>
+			<option>6</option>
+			<option>7</option>
+			<option>8</option>
+			<option>9</option>
+		</select>
+		<select id="birthday" name="Year">
+			<option>Year</option>
+			<option>1998</option>
+			<option>1999</option>
+			<option>2000</option>
+			<option>2001</option>
+			<option>2002</option>
+			<option>2003</option>
+			<option>2004</option>
+			<option>2005</option>
+			<option>2006</option>
+			
+		</select><br><br>
+		<label>Resume:<input type="file" name="Resume"></label><br><br>
+		<label>Photo: <input type="image" name="Photo" alt="submit"src="std.jpg" width="100px"><br>
+		        <input type="file" name="Photo"></label><br><br>
+		        <label>Please enter your Date</label>
+		        <input type="date" name="date">
+		        <input type="datetime-local" name=""><br><br>
+		        Enter you website link:
+		        <input type="url" name="website" placeholder="https://example.com"><br><br>
+		        <input type="reset" name="name" placeholder="enter your password"required=""> &nbsp;&nbsp;
+		        <input type="submit" name="name" placeholder="enter your password" required="">
+		</fieldset>
+
+	</form>
+	
+
+</body>
+</html>
